@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-monitor",
+  "version": "1.0.0",
+  "description": "WhatsApp group monitoring system for keyword detection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:debug": "DEBUG=true node index.js",
+    "debug-test": "node debug-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "monitoring",
+    "notifications"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "node-notifier": "^10.0.1",
+    "puppeteer": "^24.14.0"
+  }
+}
